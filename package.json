@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "vercel-codex-poster-tv",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "dev": "python3 -m http.server 4173",
+    "render": "node render-tv-poster.mjs"
+  }
+}
