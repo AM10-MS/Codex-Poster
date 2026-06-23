@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
   <meta property="og:title" content="Bring Your Kid Day - Build a Game with Codex">
-  <meta property="og:image" content="/assets/poster-16x9-faithful.png">
+  <meta property="og:image" content="/assets/original-poster.png">
   <title>Bring Your Kid Day - Build a Game with Codex</title>
   <style>
     * {
@@ -17,38 +17,139 @@
       width: 100%;
       height: 100%;
       margin: 0;
-      background: #fff6e4;
       overflow: hidden;
+      background: #fff7e8;
       overscroll-behavior: none;
+      font-family: Arial, sans-serif;
     }
 
     body {
-      min-height: 100dvh;
+      display: grid;
+      place-items: center;
     }
 
-    .poster-stage {
-      position: fixed;
-      inset: 0;
-      width: 100dvw;
+    .stage {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
       height: 100dvh;
+      overflow: hidden;
       background: #fff6e4;
+      background:
+        linear-gradient(90deg, #fff7e8 0%, #fffaf0 30%, #ffffff 47%, #ffffff 53%, #fffaf0 70%, #fff7e8 100%);
     }
 
-    .poster-stage img {
+    .poster {
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 50%;
+      height: 100vh;
+      height: 100dvh;
+      width: auto;
+      max-width: 100vw;
+      transform: translate(-50%, -50%);
       display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: center;
+      background: #fff;
+      box-shadow: 0 0 34px rgba(104, 84, 44, 0.12);
       user-select: none;
       -webkit-user-drag: none;
     }
 
+    .circle {
+      position: absolute;
+      z-index: 1;
+      border-radius: 50%;
+      opacity: 0.72;
+    }
+
+    .circle.blue {
+      background: #d9f0ff;
+    }
+
+    .circle.yellow {
+      background: #fff0b8;
+    }
+
+    .c1 {
+      width: 176px;
+      height: 176px;
+      left: 52px;
+      top: 105px;
+    }
+
+    .c2 {
+      width: 180px;
+      height: 180px;
+      left: 266px;
+      top: 340px;
+    }
+
+    .c3 {
+      width: 194px;
+      height: 194px;
+      right: 112px;
+      top: 90px;
+    }
+
+    .c4 {
+      width: 194px;
+      height: 194px;
+      right: 240px;
+      bottom: 276px;
+    }
+
+    .star {
+      position: absolute;
+      z-index: 1;
+      width: 64px;
+      height: 64px;
+      color: #f6aa00;
+      filter: drop-shadow(0 2px 0 rgba(255, 255, 255, 0.7));
+    }
+
+    .star svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+      fill: #fff7cb;
+      stroke: currentColor;
+      stroke-width: 8;
+      stroke-linejoin: round;
+    }
+
+    .s1 { left: 68px; top: 40px; }
+    .s2 { left: 455px; top: 72px; width: 56px; height: 56px; }
+    .s3 { left: 510px; top: 270px; width: 48px; height: 48px; }
+    .s4 { left: 205px; bottom: 70px; width: 58px; height: 58px; }
+    .s5 { right: 470px; top: 72px; width: 58px; height: 58px; }
+    .s6 { right: 86px; top: 330px; width: 54px; height: 54px; }
+    .s7 { right: 225px; bottom: 64px; width: 58px; height: 58px; }
+
+    @media (max-aspect-ratio: 4 / 3) {
+      .poster {
+        width: 100vw;
+        height: auto;
+      }
+    }
   </style>
 </head>
 <body>
-  <main class="poster-stage" aria-label="Bring Your Kid Day Build a Game with Codex poster">
-    <img src="./assets/poster-16x9-faithful.png" alt="Bring Your Kid Day Build a Game with Codex widescreen poster">
+  <main class="stage" aria-label="16:9 TV display for Bring Your Kid Day Codex poster">
+    <span class="circle blue c1" aria-hidden="true"></span>
+    <span class="circle yellow c2" aria-hidden="true"></span>
+    <span class="circle yellow c3" aria-hidden="true"></span>
+    <span class="circle blue c4" aria-hidden="true"></span>
+
+    <span class="star s1" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 7 L61 37 L93 38 L67 57 L76 90 L50 71 L24 90 L33 57 L7 38 L39 37 Z"/></svg></span>
+    <span class="star s2" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 7 L61 37 L93 38 L67 57 L76 90 L50 71 L24 90 L33 57 L7 38 L39 37 Z"/></svg></span>
+    <span class="star s3" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 7 L61 37 L93 38 L67 57 L76 90 L50 71 L24 90 L33 57 L7 38 L39 37 Z"/></svg></span>
+    <span class="star s4" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 7 L61 37 L93 38 L67 57 L76 90 L50 71 L24 90 L33 57 L7 38 L39 37 Z"/></svg></span>
+    <span class="star s5" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 7 L61 37 L93 38 L67 57 L76 90 L50 71 L24 90 L33 57 L7 38 L39 37 Z"/></svg></span>
+    <span class="star s6" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 7 L61 37 L93 38 L67 57 L76 90 L50 71 L24 90 L33 57 L7 38 L39 37 Z"/></svg></span>
+    <span class="star s7" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 7 L61 37 L93 38 L67 57 L76 90 L50 71 L24 90 L33 57 L7 38 L39 37 Z"/></svg></span>
+
+    <img class="poster" src="./assets/original-poster.png" alt="Bring Your Kid Day Build a Game with Codex poster">
   </main>
 </body>
 </html>
