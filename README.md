@@ -1,15 +1,9 @@
-# Vercel Codex Poster TV Version
+# Vercel Codex Poster
 
-This folder keeps the original poster intact and adds a TV-ready 16:9 PNG for projection.
+This is the clean GitHub/Vercel upload folder for the Bring Your Kid Day Codex poster.
 
-- `assets/original-poster.png`: copied from the supplied poster.
-- `assets/poster-16x9-faithful.png`: current 1920 x 1080 faithful widescreen version.
-- `index.html`: Vercel-ready static page that displays `poster-16x9-faithful.png` full screen.
+The Vercel page displays:
 
-To preview locally, run:
+- `assets/poster-16x9-faithful.png`
 
-```sh
-npm run dev
-```
-
-Then open `http://localhost:4173`.
+The poster is `1920 x 1080` and sized with safe margins for TV display.
