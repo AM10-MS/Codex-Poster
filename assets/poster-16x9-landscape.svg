@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".12"/>
+    </filter>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf4"/>
+      <stop offset="1" stop-color="#fff2cf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#warm)"/>
+  <polygon points="125,42 132.24151430824327,60.032910629300645 151.6295824562643,61.347524157501475 136.7170162807563,73.80708937069936 141.45798706418924,92.65247584249853 125,82.32 108.54201293581076,92.65247584249853 113.2829837192437,73.80708937069936 98.3704175437357,61.347524157501475 117.75848569175673,60.032910629300645" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+  <polygon points="1740,50 1747.7587653302608,69.32097567425069 1768.5316954888547,70.72949016875158 1752.553946015096,84.0790243257493 1757.6335575687742,104.27050983124843 1740,93.2 1722.3664424312258,104.27050983124843 1727.446053984904,84.0790243257493 1711.4683045111453,70.72949016875158 1732.2412346697392,69.32097567425069" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+  <polygon points="1620,990 1625.1725102201738,1002.8806504495004 1639.021130325903,1003.8196601125011 1628.3692973433974,1012.7193495504995 1631.7557050458495,1026.180339887499 1620,1018.8 1608.2442949541505,1026.180339887499 1611.6307026566026,1012.7193495504995 1600.978869674097,1003.8196601125011 1614.8274897798262,1002.8806504495004" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+  <polygon points="90,990 95.17251022017376,1002.8806504495004 109.02113032590307,1003.8196601125011 98.36929734339735,1012.7193495504995 101.75570504584947,1026.180339887499 90,1018.8 78.24429495415055,1026.180339887499 81.63070265660265,1012.7193495504995 70.97886967409693,1003.8196601125011 84.82748977982624,1002.8806504495004" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+  <circle cx="145" cy="190" r="78" fill="#36c86b" opacity=".2"/>
+  <circle cx="1785" cy="190" r="78" fill="#ff8a00" opacity=".17"/>
+
+  <g filter="url(#shadow)">
+    <path d="M625 28 H1295 Q1334 28 1344 62 L1295 96 H625 L576 62 Q586 28 625 28Z" fill="#6b46c1"/>
+    <text x="960" y="76" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="42" font-weight="900" text-anchor="middle" letter-spacing="0">BRING YOUR KID DAY</text>
+  </g>
+
+  <g>
+    <rect x="74" y="65" width="145" height="96" rx="42" fill="#4f62d7" stroke="#243a9b" stroke-width="5" transform="rotate(-12 146 113)"/>
+    <circle cx="174" cy="104" r="10" fill="#ffd33d"/>
+    <circle cx="196" cy="122" r="10" fill="#ffd33d"/>
+    <rect x="105" y="105" width="54" height="14" rx="7" fill="#ffd33d" transform="rotate(-12 132 112)"/>
+    <rect x="125" y="85" width="14" height="54" rx="7" fill="#ffd33d" transform="rotate(-12 132 112)"/>
+    <path d="M1720 57 H1838 L1817 143 H1741Z" fill="#ffca28" stroke="#f59e0b" stroke-width="6"/>
+    <path d="M1718 75 Q1668 75 1687 132 Q1698 165 1734 151" fill="none" stroke="#f59e0b" stroke-width="12"/>
+    <path d="M1838 75 Q1888 75 1869 132 Q1858 165 1822 151" fill="none" stroke="#f59e0b" stroke-width="12"/>
+    <polygon points="1779,72 1787.5346418632867,93.25307324167576 1810.3848650377402,94.80243918562674 1792.8093406166056,109.48692675832423 1798.3969133256517,131.69756081437328 1779,119.52 1759.6030866743483,131.69756081437328 1765.1906593833944,109.48692675832424 1747.6151349622598,94.80243918562674 1770.4653581367133,93.25307324167576" fill="#ffb300" stroke="#f5a400" stroke-width="3"/>
+  </g>
+
+  <text x="960" y="158" fill="#125ac6" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="84" font-weight="900" text-anchor="middle" letter-spacing="0">BUILD A GAME</text>
+  <text x="800" y="224" fill="#6b46c1" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="48" font-weight="900" text-anchor="middle" letter-spacing="0">WITH</text>
+  <rect x="870" y="181" width="330" height="64" rx="25" fill="#4338ca"/>
+  <text x="1035" y="230" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="58" font-weight="900" text-anchor="middle" letter-spacing="0">CODEX</text>
+  <rect x="595" y="252" width="730" height="58" rx="21" fill="#fff1a8" stroke="#f5bd24" stroke-width="3" stroke-dasharray="8 7"/>
+  <text x="960" y="290" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="middle" letter-spacing="0">Pick a character, imagine your game, and build it together with your parent!</text>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="320" width="590" height="270" rx="24" fill="#f5fbff" stroke="#2d9cff" stroke-width="3" stroke-dasharray="9 7"/>
+    
+  
+  <circle cx="90" cy="376" r="38" fill="#1c70d8" stroke="rgba(255,255,255,.8)" stroke-width="5"/>
+  <text x="90" y="389" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="0">1</text>
+
+  <text x="140" y="364" fill="#1c70d8" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">CHOOSE YOUR</text><text x="140" y="396" fill="#1c70d8" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">CHARACTER</text>
+
+    <text x="170" y="425" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Pick a character for your game.</text><text x="170" y="454" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">It could be:</text>
+    
+    <g>
+      <circle cx="133" cy="512" r="30" fill="#ff9f1c"/><path d="M110 496 L95 484 L101 507" fill="#ff9f1c"/><path d="M156 496 L171 484 L165 507" fill="#ff9f1c"/><circle cx="124" cy="511" r="5" fill="#111"/><circle cx="142" cy="511" r="5" fill="#111"/><path d="M124 525 Q133 533 142 525" stroke="#111" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <text x="133" y="575" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="17" font-weight="900" text-anchor="middle" letter-spacing="0">AN ANIMAL</text>
+    </g>
+  
+    
+    <g>
+      <rect x="277" y="485" width="48" height="43" rx="12" fill="#28c7e8" stroke="#0369a1" stroke-width="3"/><circle cx="293" cy="507" r="5" fill="#111"/><circle cx="310" cy="507" r="5" fill="#111"/><line x1="301" y1="483" x2="301" y2="469" stroke="#0369a1" stroke-width="4"/><circle cx="301" cy="466" r="6" fill="#86efac"/>
+      <text x="301" y="575" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="17" font-weight="900" text-anchor="middle" letter-spacing="0">A ROBOT</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="469" cy="508" r="30" fill="#ffbf7a"/><path d="M439 538 Q469 518 499 538" fill="#2563eb"/><rect x="445" y="500" width="48" height="13" rx="7" fill="#0f172a"/>
+      <text x="469" y="575" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="17" font-weight="900" text-anchor="middle" letter-spacing="0">A SUPERHERO</text>
+    </g>
+  
+
+    <rect x="665" y="320" width="590" height="270" rx="24" fill="#f8fff0" stroke="#71bf36" stroke-width="3" stroke-dasharray="9 7"/>
+    
+  
+  <circle cx="715" cy="376" r="38" fill="#48a808" stroke="rgba(255,255,255,.8)" stroke-width="5"/>
+  <text x="715" y="389" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="0">2</text>
+
+  <text x="765" y="364" fill="#48a808" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">DECIDE THE</text><text x="765" y="396" fill="#48a808" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">GAME IDEA</text>
+
+    <text x="795" y="425" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Think about what your character</text><text x="795" y="454" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">needs to do. For example:</text>
+    
+    <rect x="790" y="488" width="410" height="50" rx="15" fill="#8bc34a" opacity=".18"/>
+    <polygon points="814,495 819.6897612421911,509.1687154944505 834.9232433584933,510.20162612375117 823.2062270777371,519.9912845055495 826.9312755504344,534.7983738762489 814,526.68 801.0687244495656,534.7983738762489 804.7937729222629,519.9912845055495 793.0767566415066,510.20162612375117 808.3102387578089,509.1687154944505" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+    <text x="848" y="522" fill="#171717" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Collect stars</text>
+  
+    
+    <rect x="790" y="542" width="410" height="50" rx="15" fill="#8bc34a" opacity=".18"/>
+    <polygon points="812,553 830,587 794,587" fill="#ff6b00"/>
+    <text x="848" y="576" fill="#171717" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Avoid obstacles</text>
+  
+
+    <rect x="1290" y="320" width="590" height="270" rx="24" fill="#fff7f7" stroke="#ff557d" stroke-width="3" stroke-dasharray="9 7"/>
+    
+  
+  <circle cx="1340" cy="376" r="38" fill="#ee4266" stroke="rgba(255,255,255,.8)" stroke-width="5"/>
+  <text x="1340" y="389" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="0">3</text>
+
+  <text x="1390" y="364" fill="#ee4266" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">TELL CODEX</text><text x="1390" y="396" fill="#ee4266" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">WHAT TO BUILD</text>
+
+    <text x="1420" y="425" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">With your parent, write a simple</text><text x="1420" y="454" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">instruction for Codex.</text>
+    <path d="M1408 486 H1832 Q1850 486 1850 504 V564 Q1850 582 1832 582 H1462 L1428 610 V582 H1408 Q1390 582 1390 564 V504 Q1390 486 1408 486Z" fill="#fff" stroke="#2d9cff" stroke-width="5"/>
+    <text x="1428" y="529" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="25" font-weight="900" text-anchor="start" letter-spacing="0">Build a game where a cat</text><text x="1428" y="560" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="25" font-weight="900" text-anchor="start" letter-spacing="0">collects stars and avoids dogs.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="620" width="590" height="250" rx="24" fill="#fbf8ff" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="9 7"/>
+    
+  
+  <circle cx="90" cy="676" r="38" fill="#6b46c1" stroke="rgba(255,255,255,.8)" stroke-width="5"/>
+  <text x="90" y="689" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="0">4</text>
+
+  <text x="140" y="664" fill="#6b46c1" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">TEST THE GAME</text>
+
+    <text x="170" y="714" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Play the game and see what happens!</text>
+    <rect x="82" y="750" width="505" height="92" rx="16" fill="#66c7ff"/>
+    <rect x="82" y="815" width="505" height="27" fill="#20b65b"/>
+    <rect x="100" y="766" width="86" height="42" rx="10" fill="#1767bd"/>
+    <text x="143" y="785" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="17" font-weight="900" text-anchor="middle" letter-spacing="0">SCORE</text>
+    <text x="143" y="806" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="900" text-anchor="middle" letter-spacing="0">120</text>
+    <polygon points="330,767 337.24151430824327,785.0329106293007 356.6295824562643,786.3475241575014 341.7170162807563,798.8070893706994 346.45798706418924,817.6524758424986 330,807.32 313.54201293581076,817.6524758424986 318.2829837192437,798.8070893706994 303.3704175437357,786.3475241575014 322.75848569175673,785.0329106293007" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+    <circle cx="214" cy="808" r="32" fill="#ff9f1c"/>
+    <circle cx="205" cy="800" r="5" fill="#111"/><circle cx="224" cy="800" r="5" fill="#111"/>
+
+    <rect x="665" y="620" width="590" height="250" rx="24" fill="#fff8ef" stroke="#ff8a00" stroke-width="3" stroke-dasharray="9 7"/>
+    
+  
+  <circle cx="715" cy="676" r="38" fill="#ff6b00" stroke="rgba(255,255,255,.8)" stroke-width="5"/>
+  <text x="715" y="689" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="0">5</text>
+
+  <text x="765" y="664" fill="#ff6b00" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">MAKE IT BETTER</text>
+
+    <text x="795" y="714" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Ask Codex to add new things, like:</text>
+    
+    <rect x="790" y="750" width="410" height="50" rx="15" fill="#ffcc80" opacity=".18"/>
+    <rect x="798" y="763" width="32" height="32" rx="7" fill="#2094ff"/>
+    <text x="848" y="784" fill="#171717" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">More characters</text>
+  
+    
+    <rect x="790" y="805" width="410" height="50" rx="15" fill="#ffcc80" opacity=".18"/>
+    <rect x="798" y="818" width="30" height="26" fill="#111827"/><rect x="798" y="818" width="15" height="13" fill="#fff"/><line x1="798" y1="815" x2="798" y2="853" stroke="#6b7280" stroke-width="5"/>
+    <text x="848" y="839" fill="#171717" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Sound effects</text>
+  
+
+    <rect x="1290" y="620" width="590" height="250" rx="24" fill="#f0ffff" stroke="#15b8c8" stroke-width="3" stroke-dasharray="9 7"/>
+    
+  
+  <circle cx="1340" cy="676" r="38" fill="#0ea5a8" stroke="rgba(255,255,255,.8)" stroke-width="5"/>
+  <text x="1340" y="689" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="0">6</text>
+
+  <text x="1390" y="664" fill="#0ea5a8" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="900" text-anchor="start" letter-spacing="0">SHOW YOUR GAME!</text>
+
+    <text x="1420" y="714" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Show your game to others</text><text x="1420" y="743" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">and tell them:</text>
+    <rect x="1405" y="770" width="385" height="45" rx="18" fill="#fff" stroke="#31bfd3" stroke-width="3"/>
+    <text x="1475" y="800" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="start" letter-spacing="0">Who your character is</text>
+    <rect x="1405" y="825" width="385" height="45" rx="18" fill="#fff" stroke="#31bfd3" stroke-width="3"/>
+    <text x="1475" y="855" fill="#111" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="start" letter-spacing="0">What the goal of the game is</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="898" width="710" height="118" rx="25" fill="#fff" stroke="#9d73dc" stroke-width="3" stroke-dasharray="9 7"/>
+    <rect x="40" y="898" width="710" height="42" rx="25" fill="#8b5cf6"/>
+    <text x="395" y="928" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="27" font-weight="900" text-anchor="middle" letter-spacing="0">PARENT ROLE</text>
+    <circle cx="82" cy="960" r="15" fill="#4caf14"/><path d="M74 959 L81 967 L93 952" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <text x="110" y="968" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="start" letter-spacing="0">Help your child describe their idea clearly</text>
+    <circle cx="82" cy="995" r="15" fill="#4caf14"/><path d="M74 994 L81 1002 L93 987" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <text x="110" y="1003" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="start" letter-spacing="0">Type the instructions in Codex and test together</text>
+
+    <rect x="790" y="898" width="1090" height="118" rx="25" fill="#e7f7ff" stroke="#38bdf8" stroke-width="3"/>
+    <rect x="870" y="910" width="330" height="38" rx="16" fill="#1267bd"/>
+    <text x="1035" y="937" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="24" font-weight="900" text-anchor="middle" letter-spacing="0">EXAMPLE PROMPT</text>
+    <text x="835" y="973" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">Create a simple game where a dragon flies through the sky collecting gems</text><text x="835" y="1002" fill="#172070" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" letter-spacing="0">and avoiding clouds. Add a score counter and a fun background.</text>
+    <path d="M1728 934 Q1798 916 1840 964 Q1798 1007 1728 990 Q1672 973 1728 934Z" fill="#ff6b00" stroke="#c2410c" stroke-width="4"/>
+    <circle cx="1765" cy="955" r="8" fill="#111"/>
+    <polygon points="1700,991 1704.138008176139,1001.3045203596004 1715.2169042607225,1002.0557280900008 1706.695437874718,1009.1754796403997 1709.4045640366796,1019.9442719099992 1700,1014.04 1690.5954359633204,1019.9442719099992 1693.304562125282,1009.1754796403997 1684.7830957392775,1002.0557280900008 1695.861991823861,1001.3045203596004" fill="#38bdf8" stroke="#f5a400" stroke-width="3"/>
+  </g>
+
+  <rect x="0" y="1032" width="1920" height="48" fill="#0757b8"/>
+  <polygon points="320,1038 324.6552591981564,1049.5925854045504 337.11901729331277,1050.437694101251 327.5323676090576,1058.4474145954496 330.5801345412645,1070.562305898749 320,1063.92 309.4198654587355,1070.562305898749 312.4676323909424,1058.4474145954496 302.88098270668723,1050.437694101251 315.3447408018436,1049.5925854045504" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+  <text x="960" y="1065" fill="#fff" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="32" font-weight="900" text-anchor="middle" letter-spacing="0">BE CREATIVE. HAVE FUN. BUILD YOUR GAME TOGETHER!</text>
+  <polygon points="1600,1038 1604.6552591981565,1049.5925854045504 1617.1190172933127,1050.437694101251 1607.5323676090577,1058.4474145954496 1610.5801345412644,1070.562305898749 1600,1063.92 1589.4198654587356,1070.562305898749 1592.4676323909423,1058.4474145954496 1582.8809827066873,1050.437694101251 1595.3447408018435,1049.5925854045504" fill="#ffd22e" stroke="#f5a400" stroke-width="3"/>
+</svg>

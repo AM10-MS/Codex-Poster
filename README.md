@@ -3,8 +3,8 @@
 This folder keeps the original poster intact and adds a TV-ready 16:9 PNG for projection.
 
 - `assets/original-poster.png`: copied from the supplied poster.
-- `assets/poster-16x9-tv.png`: 1920 x 1080 full-poster version for a widescreen TV.
-- `index.html`: Vercel-ready static page that displays the widescreen poster full screen.
+- `assets/poster-16x9-faithful.png`: current 1920 x 1080 faithful widescreen version.
+- `index.html`: Vercel-ready static page that displays `poster-16x9-faithful.png` full screen.
 
 To preview locally, run:
 

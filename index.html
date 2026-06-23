@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
   <meta property="og:title" content="Bring Your Kid Day - Build a Game with Codex">
-  <meta property="og:image" content="/assets/poster-16x9-tv.png">
+  <meta property="og:image" content="/assets/poster-16x9-faithful.png">
   <title>Bring Your Kid Day - Build a Game with Codex</title>
   <style>
     * {
@@ -44,52 +44,11 @@
       -webkit-user-drag: none;
     }
 
-    .fullscreen-button {
-      position: fixed;
-      right: 18px;
-      bottom: 18px;
-      z-index: 2;
-      border: 0;
-      border-radius: 999px;
-      padding: 10px 16px;
-      color: #fff;
-      background: rgba(0, 0, 0, 0.52);
-      font: 700 14px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      cursor: pointer;
-      backdrop-filter: blur(8px);
-      transition: opacity 180ms ease;
-    }
-
-    .is-fullscreen .fullscreen-button {
-      opacity: 0;
-      pointer-events: none;
-    }
   </style>
 </head>
 <body>
   <main class="poster-stage" aria-label="Bring Your Kid Day Build a Game with Codex poster">
-    <img src="./assets/poster-16x9-tv.png" alt="Bring Your Kid Day Build a Game with Codex widescreen poster">
+    <img src="./assets/poster-16x9-faithful.png" alt="Bring Your Kid Day Build a Game with Codex widescreen poster">
   </main>
-  <button class="fullscreen-button" type="button">Full screen</button>
-  <script>
-    const button = document.querySelector(".fullscreen-button");
-
-    async function enterFullscreen() {
-      if (document.fullscreenElement || !document.documentElement.requestFullscreen) {
-        return;
-      }
-
-      try {
-        await document.documentElement.requestFullscreen();
-      } catch {
-        button.textContent = "Use browser full screen";
-      }
-    }
-
-    button.addEventListener("click", enterFullscreen);
-    document.addEventListener("fullscreenchange", () => {
-      document.body.classList.toggle("is-fullscreen", Boolean(document.fullscreenElement));
-    });
-  </script>
 </body>
 </html>
